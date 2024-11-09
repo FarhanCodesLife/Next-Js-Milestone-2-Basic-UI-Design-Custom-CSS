@@ -9,7 +9,6 @@ const Navbar = () => {
     <React.Fragment>
       <nav id="navbar">
         <div id="logo">
-          {/* Use Image component from Next.js */}
           <Image src={logo} alt="MyOnlineMeal.com" width={100} height={50} />
         </div>
         <ul>
