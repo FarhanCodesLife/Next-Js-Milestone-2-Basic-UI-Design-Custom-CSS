@@ -1,5 +1,4 @@
 import Image from "next/image";
-import styles from "./page.module.css";
 import React from "react";
 import img1 from "../asset/client_1.png";
 import img2 from "../asset/client_2.png";

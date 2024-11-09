@@ -1,10 +1,11 @@
-import Image from "next/image";
-import styles from "./page.module.css";
 import React from "react";
 import "./globals.css";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 export default function Home() {
   return (
     <React.Fragment>
+      <Navbar/>
       <section id="home">
         <h1 className="h-primary">
           Welcome to my Online Meal
@@ -14,6 +15,7 @@ export default function Home() {
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
         <button className="btn">Order Now</button>
       </section>
+      <Footer/>
     </React.Fragment>
   );
 }
